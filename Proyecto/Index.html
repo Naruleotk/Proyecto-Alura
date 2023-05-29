@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Logo.png" alt="logo" id="logo">
+  </header>
+  
+  
+    <section class="form-box">
+      <form action="Encriptar.js">
+        <div class="label-info">
+          <img src="Candado.png" alt="importante" id="imgInfo" width="30" height="30">  
+          <label class="info" for="input-texto">Solo letras minúsculas, sin acentos</label>
+        </div>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
+        <div id="botones">
+          <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+          <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+          
+        </div>
+      </form>
+    </section>
+    
+    <section class="msg-box" id="cajaR" readonly>
+      <h2 id=""></h2>
+          
+      <div id="divImagen">
+        <picture>
+          <source src="Inspector.png" media="screen and (max-width : 400px)">
+          <img src="Inspector.png" id="imagen" class="img" width="400">
+        </picture>
+        <p class="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+        <p class="texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+      </div>
+      <div id="botonCopiar">
+        <input class="text-input-salida" type="text" id="msg">
+        <input class="btn3" type="button" value="Copiar" id="btn-copy">
+      </div>
+      
+    </section>
+    
+         <!--Roadpie-->  
+  <footer>
+    <button id="btn-limpiar" onclick="limpiarTexto()">Limpiar</button>
+    <p>Leonardo Hernandez </p> 
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
