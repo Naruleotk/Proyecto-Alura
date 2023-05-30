@@ -25,7 +25,7 @@ body{
     
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 300px;
     left: 180px;
     top: 120px;
 
@@ -39,6 +39,7 @@ body{
     border: 0;
     outline: none;
     flex-wrap: wrap;
+    visibility: visible;
 
 }
 #divImgen{
@@ -47,6 +48,7 @@ body{
 #img{
     margin: auto;
 }
+
 /*logo*/
 .imgInfo{
     position: absolute;
@@ -192,12 +194,12 @@ body{
 #cajaR{
     position: absolute;
     width: 400px;
-    height: 580px;
+    height: 600px;
     left: 870px;
     top: 20px;
     justify-content: center;
     justify-items: center;
-    
+    visibility: visible;
 
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.88);
@@ -206,7 +208,7 @@ body{
 /* Texto dentro del cuadro a copiar*/
 #divImagen .texto1{
     width: 336px;
-    height: 58px;
+    height: 70px;
     
 
     font-family: 'Inter';

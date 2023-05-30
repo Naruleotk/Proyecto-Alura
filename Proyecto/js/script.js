@@ -67,6 +67,9 @@ function desencriptar() {
       document.getElementById("btn-copy").style.visibility = "visible";
     }
   }
+
+
+
 var boton2 = document.querySelector("#btn-desencriptar"); 
 boton2.onclick = desencriptar;
 
@@ -96,3 +99,6 @@ function limpiarTexto() {
     document.querySelector("#input-texto").value = "";
     window.location.href = "Index.html"
   }
+
+  
+
